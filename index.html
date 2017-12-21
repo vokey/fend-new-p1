@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/framework.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
   <title>JINPENG's Portfolio</title>
 </head>
@@ -13,12 +14,12 @@
   <div class="content">
     <!-- Top Banner -->
     <header class="banner row">
-      <div class="banner-logo col-6">
+      <div class="banner-logo col-4">
         <img src="http://dummyimage.com/100x100.png/fff/02b3e4&text=LOGO" alt="Logo">
       </div>
-      <div class="banner-title col-6">
-        <h1 class="title-name text-right">JINPENG LI</h1>
-        <h3 class="title-sub text-right">Frontend Beginner</h3>
+      <div class="banner-title col-8">
+        <h1 class="title-name text-right text-uppercase">Jinpeng LI</h1>
+        <h3 class="title-sub text-right text-uppercase">Front-end Beginner</h3>
       </div>
     </header>
 
@@ -28,31 +29,35 @@
 
     <!-- Spotlight -->
     <section class="spotlight row">
-      <img src="http://placekitten.com/960/360" alt="A picture about main feature">
+      <div class="spotlight-img col-12">
+        <img src="http://placekitten.com/960/360" alt="A picture about main feature">
+      </div>
     </section>
 
     <!-- Featured Works -->
     <div class="row">
-      <h2 class="featured-title">Featured Works</h2>
+      <div class="featured-title col-12">
+        <h2 class="featured-title">Featured Work</h2>
+      </div>
     </div>
 
-    <div class="featured-works row">
-      <div class="featured-item col-4 item1">
-        <img src="http://placekitten.com/320/240" alt="">
+    <section class="featured-work row">
+      <section class="featured-item col-4 item1">
+        <img src="http://placekitten.com/480/360" alt="">
         <h3 class="featured-item-title text-uppercase">Project 1</h3>
-        <a href="https://github.com/vokey/someproject1" class="featured-item-link" target="_blank">https://github.com/vokey/someproject1</a>
-      </div>
-      <div class="featured-item col-4 item2">
-        <img src="http://placekitten.com/320/240" alt="">
+        <a href="https://github.com/vokey/someproject1" class="featured-item-link" target="_blank"><span class="short-link">Git</span><span class="long-link">https://github.com/vokey/someproject1</span></a>
+      </section>
+      <section class="featured-item col-4 item2">
+        <img src="http://placekitten.com/480/360" alt="">
         <h3 class="featured-item-title text-uppercase">Project 2</h3>
-        <a href="https://github.com/vokey/someproject2" class="featured-item-link" target="_blank">https://github.com/vokey/someproject2</a>
-      </div>
-      <div class="featured-item col-4 item3">
-        <img src="http://placekitten.com/320/240" alt="">
+        <a href="https://github.com/vokey/someproject2" class="featured-item-link" target="_blank"><span class="short-link">Git</span><span class="long-link">https://github.com/vokey/someproject2</span></a>
+      </section>
+      <section class="featured-item col-4 item3">
+        <img src="http://placekitten.com/480/360" alt="">
         <h3 class="featured-item-title text-uppercase">Project 3</h3>
-        <a href="https://github.com/vokey/someproject3" class="featured-item-link" target="_blank">https://github.com/vokey/someproject3</a>
-      </div>
-    </div>
+        <a href="https://github.com/vokey/someproject3" class="featured-item-link" target="_blank"><span class="short-link">Git</span><span class="long-link">https://github.com/vokey/someproject3</span></a>
+      </section>
+    </section>
 
     <div class="hr">
       <hr class="bottom-hr"/>

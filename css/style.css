@@ -1,3 +1,7 @@
+h1, h2, h3 ,h4 {
+  padding: 2px 10px;
+}
+
 .text-right {
   text-align: right;
 }
@@ -7,7 +11,7 @@
 }
 
 .hr {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .top-hr {
@@ -22,6 +26,9 @@
   background-color: #accacc;
 }
 
+.banner-title {
+  margin: auto 0;
+}
 .title-name {
   font-weight: 300;
   font-size: 3em;
@@ -29,11 +36,13 @@
 }
 
 .featured-title {
+  margin: 10px 0;
   color: #7d97ad;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .featured-item {
+  width: calc((100% - 20px) / 3);
   margin-right: 10px;
   text-align: center;
 }
@@ -42,7 +51,7 @@
   margin-right: 0;
 }
 
-.featured-title, .featured-item-title, .featured-item-link {
+.featured-item-title, .featured-item-link {
   line-height: : 1.2em;
   padding: 0.5em 0;
 }
@@ -57,6 +66,10 @@
 
 .featured-item-link:hover {
   text-decoration: underline;
+}
+
+.short-link {
+  display: none;
 }
 
 .footer {
