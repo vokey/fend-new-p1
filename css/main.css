@@ -69,10 +69,12 @@ h1, h2, h3 ,h4 {
 
 .top-hr {
   border-bottom: 3px solid #7d97ad;
+  margin-bottom: 10px;
 }
 
 .bottom-hr {
   border-bottom: 1px solid #accacc;
+  margin: 4px 0;
 }
 
 .banner-title {
