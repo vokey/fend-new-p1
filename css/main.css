@@ -11,7 +11,10 @@
     color: #2d3c49;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
   max-height: 100%;
 }
@@ -55,7 +58,10 @@ img, embed, object, video {
 
 /* Style CSS */
 
-h1, h2, h3 ,h4 {
+h1,
+h2,
+h3,
+h4 {
   padding: 2px 10px;
 }
 
@@ -80,6 +86,7 @@ h1, h2, h3 ,h4 {
 .banner-title {
   margin: auto 0;
 }
+
 .title-name {
   font-weight: 300;
   font-size: 3em;
