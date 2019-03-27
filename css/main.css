@@ -74,7 +74,10 @@ h4 {
 }
 
 .top-hr {
-  border-bottom: 3px solid #7d97ad;
+  border: none;
+  border-top: 3px solid #7d97ad;
+  color: #7d97ad;
+  height: 3px;
   margin-bottom: 10px;
 }
 
